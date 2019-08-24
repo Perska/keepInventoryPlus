@@ -9,3 +9,6 @@ A datapack for Minecraft Java Edition that aims to make using keepInventory just
 ## Adjust the level penalty
 When you die, the formula 'SubtractLevels = CurrentLevel * Multiplicator / Divisor' is used. By default, Multiplicator is 1, and Divisor is 2.  
 To change these values, open 'keepInventoryPlus/data/keepinventoryplus/functions/initialize.mcfunction' and change cMul and cDiv to your liking on lines 11 and 12.
+
+## Known issues:
+* [When the pack is first added to a world, every player will penalized, even if they hadn't died before.](https://github.com/Perska/keepInventoryPlus/issues/1/)
