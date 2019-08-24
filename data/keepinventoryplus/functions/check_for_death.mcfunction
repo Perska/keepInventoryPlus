@@ -7,4 +7,14 @@ execute as @a run execute unless score @s keepInvCurrDeath = @s keepInvLastDeath
 #So. For now, score is not altered upon death.
 
 #Have you removed enough levels yet? If not, remove some levels.
-execute as @a[scores={keepInvSubLevel=1..}] run function keepinventoryplus:remove_level
+execute as @a[scores={keepInvSubLevel=1..}] run function keepinventoryplus:remove_level1
+#execute as @a[scores={keepInvSubLevel=10..99}] run function keepinventoryplus:remove_level10
+execute as @a[scores={keepInvSubLevel=100..999}] run function keepinventoryplus:remove_level100
+execute as @a[scores={keepInvSubLevel=1000..9999}] run function keepinventoryplus:remove_level1000
+execute as @a[scores={keepInvSubLevel=10000..99999}] run function keepinventoryplus:remove_level10000
+execute as @a[scores={keepInvSubLevel=100000..999999}] run function keepinventoryplus:remove_level100000
+execute as @a[scores={keepInvSubLevel=1000000..9999999}] run function keepinventoryplus:remove_level1000000
+execute as @a[scores={keepInvSubLevel=10000000..99999999}] run function keepinventoryplus:remove_level10000000
+execute as @a[scores={keepInvSubLevel=100000000..999999999}] run function keepinventoryplus:remove_level100000000
+execute as @a[scores={keepInvSubLevel=1000000000..}] run function keepinventoryplus:remove_level1000000000
+
